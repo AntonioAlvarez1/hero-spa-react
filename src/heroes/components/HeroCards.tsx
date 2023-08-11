@@ -13,7 +13,6 @@ const CharactersByHero=({alter_ego,characters}:CharacterProps)=>{
     return<p>{characters}</p>   
 }
 }
-
 export const HeroCards = (hero:Hero) => {
     const heroImageUrl: string = `/assets/heroes/${hero.id}.jpg`;
 

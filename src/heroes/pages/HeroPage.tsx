@@ -8,7 +8,7 @@ export const HeroPage = () => {
 
   const navigate = useNavigate();
 
-  const hero = useMemo(()=>GetHeroById(id),[id]) ; //aca se almacena el hero la dependencia es [id]
+  const hero = useMemo(()=>GetHeroById(id),[id]);
 
   const onNavigateBack = () => {
     navigate(-1);
